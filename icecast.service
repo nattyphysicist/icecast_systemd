@@ -2,7 +2,7 @@
 Description=Icecast2
 
 [Service]
-Type=forking
+Type=simple
 ExecStart=/usr/bin/icecast.sh start
 ExecStop=/usr/bin/icecast.sh stop
 
