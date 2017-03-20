@@ -5,7 +5,7 @@ start() {
 }
 
 stop() {
-  exec ....
+  exec killproc icecast2
 }
 
 case $1 in
