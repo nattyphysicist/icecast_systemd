@@ -1,11 +1,11 @@
 #!/bin/sh
 
 start() {
-  exec icecast2 -b -c /etc/icecast2/icecast.xml
+  exec runuser -l soundfm0t -c 'icecast2 -b -c /etc/icecast2/icecast.xml'
 }
 
 stop() {
-  exec killproc icecast2
+  exec pkill icecast2
 }
 
 case $1 in
