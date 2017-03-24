@@ -7,9 +7,4 @@ Motivation: I could not find a pre-baked set of scripts to handle Icecast2 for r
 
 INSTALL
 
-Put files here:
-/usr/bin/icecast.sh
-/etc/systemd/system/icecast.service
-
-Enable to service by:
-systemctl enable icecast.service
+execute install.sh as sudo
