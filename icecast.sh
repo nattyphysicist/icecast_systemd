@@ -1,7 +1,7 @@
 #!/bin/sh
 
 start() {
-  exec runuser -l soundfm0t -c 'icecast2 -b -c /etc/icecast2/icecast.xml'
+  exec icecast2 -b -c /etc/icecast2/icecast.xml
 }
 
 stop() {
