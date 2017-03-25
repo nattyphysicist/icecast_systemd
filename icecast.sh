@@ -9,5 +9,10 @@ stop() {
 }
 
 case $1 in
-  start|stop) "$1" ;;
+  start)
+    start
+    ;;
+  stop)
+    stop
+    ;;
 esac
